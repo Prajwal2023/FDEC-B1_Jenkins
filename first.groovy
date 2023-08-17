@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull') {
             steps {
-                echo 'pulling...'
+                git branch: 'main', url: 'https://github.com/rajatpzade/FDEC-B1_Jenkins.git'
             }
         }
         stage('Building') {
