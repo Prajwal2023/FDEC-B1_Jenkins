@@ -11,4 +11,6 @@ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
 
   apt-get update
 
-  apt install openjdk-17-jre
+  apt install openjdk-11-jre
+
+  
