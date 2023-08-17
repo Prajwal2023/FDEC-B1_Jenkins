@@ -13,7 +13,11 @@ sudo yum install java-11-openjdk -y
 
 sudo yum install jenkins -y
 
-systemctl start jen
+systemctl start jenkins 
+
+systemctl enable jenkins 
+
+
 
 
 
