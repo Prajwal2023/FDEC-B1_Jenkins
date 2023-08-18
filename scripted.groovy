@@ -1,6 +1,6 @@
 node {
     stage = ('Pull') {
-        echo "Build is available"
+        echo "pull is available"
     }
     stage = ('Build') {
         echo "Build is available"
@@ -8,7 +8,7 @@ node {
     stage = ('Test') {
         echo "Build is available"
     }
-    stage = ('Build') {
+    stage = ('Deploy') {
         echo "Build is available"
     }
 }
