@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull') { 
             steps {
-                // 
+                echo 'pull successfully '
             }
         }
         stage('Build') { 
