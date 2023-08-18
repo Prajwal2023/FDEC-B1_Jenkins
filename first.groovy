@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo 'yahoo '
+                echo 'yahoo cong Deploy successfully'
             }
         }
     }
