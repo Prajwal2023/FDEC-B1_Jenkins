@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo 'yahoo cong Deploy successfully'
+                echo 'yahoo congrat Deploy successfully'
             }
         }
     }
