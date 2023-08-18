@@ -1,12 +1,12 @@
 node {
     stage = ('Pull') {
-        echo "pull is available"
+        echo "pull is ready"
     }
     stage = ('Build') {
         echo "Build is available"
     }
     stage = ('Test') {
-        echo "Build is available"
+        echo "Test is successful passing tests"
     }
     stage = ('Deploy') {
         echo "Build is available"
