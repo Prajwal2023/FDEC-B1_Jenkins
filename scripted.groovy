@@ -1,6 +1,6 @@
 node {
     stage = ('Pull') {
-        echo "pull is ready"
+        echo "pull is ready'
     }
     stage = ('Build') {
         echo "Build is available"
