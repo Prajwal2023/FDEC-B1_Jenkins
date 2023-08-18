@@ -9,7 +9,7 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo \
 
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 
-sudo yum upgrade
+sudo yum upgrade -y
 
 sudo yum install java-11-openjdk -y
 
