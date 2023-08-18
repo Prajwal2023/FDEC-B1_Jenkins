@@ -9,6 +9,6 @@ node {
         echo 'Code is successful passing tests'
     }
     stage = ('Deploy') {
-        echo 'Congratulations Deployment is ready to release"'
+        echo 'Congratulations Deployment is ready to release'
     }
 }
