@@ -13,12 +13,12 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                echo 'TEst successfully'
+                echo 'Test successfully'
             }
         }
         stage('Deploy') { 
             steps {
-                // 
+                echo 'yahoo '
             }
         }
     }
