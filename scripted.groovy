@@ -1,5 +1,5 @@
 node {
     stage = ('Build') {
-        echo
+        echo "Build is available"
     }
 }
