@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') { 
             steps {
-              echo 'Build successfully'
+              sh '/opt/mvn clean package'
             }
         }
         stage('Test') { 
